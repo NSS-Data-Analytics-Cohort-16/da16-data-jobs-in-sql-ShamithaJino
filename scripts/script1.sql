@@ -27,7 +27,7 @@ WHERE location IN ('TN', 'KY');
 SELECT 
 	COUNT(*) AS rating_above_4 
 FROM data_analyst_jobs
-WHERE star_rating>4;
+WHERE star_rating>4 AND location='TN';
 
 
 -- 5.	How many postings in the dataset have a review count between 500 and 1000?
